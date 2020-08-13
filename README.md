@@ -1,2 +1,2 @@
 # meals
-Flutter app for getting food information
+Flutter app fnumber 3. Food based app
