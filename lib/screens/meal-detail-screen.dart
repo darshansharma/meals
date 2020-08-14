@@ -65,8 +65,13 @@ class MealDetailScreen extends StatelessWidget {
                       padding:
                           EdgeInsets.symmetric(vertical: 5, horizontal: 10),
                       child: Card(
-                        color: Theme.of(context).accentColor,
-                        child: Text(selectedMeal.ingredients[index]),
+                        // color: Theme.of(context).accentColor,
+                        child: Text(
+                          selectedMeal.ingredients[index],
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                       ),
                     );
                   },
